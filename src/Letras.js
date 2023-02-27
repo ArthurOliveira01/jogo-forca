@@ -6,7 +6,7 @@ export default function Letras(){
         return <button disabled>{letter.toUpperCase()}</button>
     })
     let list1 = alfabeto2.map(function(letter) {
-        return <button disabled>{letter.toUpperCase()}</button>
+        return <button data-test="letter" disabled>{letter.toUpperCase()}</button>
     })
     return(
     <div>

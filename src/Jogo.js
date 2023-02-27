@@ -55,12 +55,11 @@ export default function Jogo(){
     <div>
         <div class="container">
           <div class="forca">
-            <img  src="assets/img/forca0.png" alt=""></img>
+            <img data-test="game-image" src="assets/img/forca0.png" alt=""></img>
           </div>
-          <button onClick={write}></button>
-          <button onClick={start} class="start-game">Escolher Palavra</button>
+          <button onClick={start} data-test="choose-word" class="start-game">Escolher Palavra</button>
         </div>
-        <p class="underscore">{testes}</p>
+        <p data-test="word" class="underscore">{testes}</p>
     </div>
     
     );
