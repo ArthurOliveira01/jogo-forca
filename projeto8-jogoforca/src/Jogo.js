@@ -33,17 +33,13 @@ export default function Jogo(){
         helper = testes;
         while(y < testes.length){
             u = '';
-            console.log('teste')
             if(helper.charAt(y) === '_'){
-                console.log(misteriosa.charAt(n));
                 if('a' === misteriosa.charAt(n)){
                     u = helper.split("");
                     u[2 * n] = 'a';
                     console.log(u);
                     helper = u.join("");
                 }
-                console.log(y);
-                console.log(n);
                 n ++;
             }
     
