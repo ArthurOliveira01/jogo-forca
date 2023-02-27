@@ -24,6 +24,7 @@ export default function Jogo(){
         console.log(under.length);
         setTestes(under);
     }
+    
     let helper = ''
     let forca = '';
     let u = '';
